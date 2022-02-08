@@ -1,39 +1,30 @@
+<!--this is the final task for product table . -->  
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascripts Logics</title>
+    <title>Task2</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div id="main">
-       <div class="container">
-       <div class="p1">
-           <label for="product id">Product Id</label>
-           <label for="product name">Product Name</label>
-           <label for="product price">Product Price</label> 
-       </div>
-
-       <div class="p2">
-           <input id="pId" name="product id">
-           <input id="pName" name="Product name">
-           <input id="pPrice" name="product price">
-       </div>
-       <div class="button1">
-           <button type="button" onclick="addProduct()">ADD PRODUCT</button>
-       </div>
-
-       <div class="container1">
-           <table id="table1">
-               <td>Product Id</td>
-               <td>Product Name</td>
-               <td>Product Price</td>
-           </table>
-       </div>
+    <div>
+        <form>
+            <label for="pro-id">Product Id</label>
+            <input type="text" class="text-field" id="pID" name="pro-id">
+            <br>
+            <label for="pro-name">Product Name</label>
+            <input type="text" class="text-field" id="pName" name="pro-name">
+            <br>
+            <label for="pro-price">Product Price</label>
+            <input type="text" class="text-field" id="pPrice" name="pro-price">
+            <br>
+            <input type="button" id="Button" onclick="myFunction()" value="ADD PRODUCT"> 
+        </form>
     </div>
-   </div>
-   <script src="script.js"></script>
+    <div class="table">
+        <table id="table1">
+            
+        </table>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
